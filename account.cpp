@@ -45,15 +45,15 @@ public:
 
 //accessors (getters)
 // (const) this function will not change any member variable, return it as a constant
-    inline const string& getFirstName() const { return this->first_name; }
-    inline const string& getLastName() const { return this->last_name; }
-    inline const string& getAccNumber() const { return this->acc_number; }
-    inline const string& getPinNumber() const { return this->pin_number; }
-    inline const int& getBalance() const { return this->balance; }
+    const string& getFirstName() const { return this->first_name; }
+    const string& getLastName() const { return this->last_name; }
+    const string& getAccNumber() const { return this->acc_number; }
+    const string& getPinNumber() const { return this->pin_number; }
+    const int& getBalance() const { return this->balance; }
 
 //mutators/modifiers (setters)
-    inline void setFirstName(const string& first_name) { this->first_name = first_name; }
-    inline void setLastName(const string& last_name) { this->last_name = last_name; }
+    void setFirstName(const string& first_name) { this->first_name = first_name; }
+    void setLastName(const string& last_name) { this->last_name = last_name; }
 
 //functions
     bool setPinNumber(string& pin_number){
