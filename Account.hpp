@@ -40,7 +40,9 @@ public:
 
   void setLastName(const string &last_name);
 
-  bool setPinNumber(string &pin_number);
+  void setAccNumber();
+
+  bool setPinNumber(string pin);
 
   bool transaction(int amount);
 };
