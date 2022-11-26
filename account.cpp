@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//private
 std::string Account::generateAccountNumber() {
   std::string an_str = "";
   for (int i{0}; i < 8; i++) {
@@ -12,6 +13,8 @@ std::string Account::generateAccountNumber() {
   }
   return an_str;
 }
+
+//public
 
 //default constructor
 Account::Account() {
@@ -50,9 +53,9 @@ void Account::setFirstName(const string &first_name) { this->first_name = first_
 void Account::setLastName(const string &last_name) { this->last_name = last_name; }
 
 //functions
-bool Account::setPinNumber(string &pin_number) {
-  if (pin_number.length() == 4) {
-    this->pin_number = pin_number;
+bool Account::setPinNumber(string pin) {
+  if (pin.length() == 4) {
+    //this->pin_number = pin_number;
     return true;
   }
   return false;

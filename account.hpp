@@ -1,5 +1,4 @@
 #pragma once
-
 #include <iostream>
 #include <string>
 
@@ -37,9 +36,9 @@ public:
   const int &getBalance();
 
 //mutators/modifiers (setters)
-  inline void setFirstName(const string &first_name);
+  void setFirstName(const string &first_name);
 
-  inline void setLastName(const string &last_name);
+  void setLastName(const string &last_name);
 
   bool setPinNumber(string &pin_number);
 
