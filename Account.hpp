@@ -29,9 +29,9 @@ public:
 
   const string &getLastName();
 
-  const string &getAccNumber();
+  const string &getAccountNumber();
 
-  const string &getPinNumber();
+  const string &getPin();
 
   const int &getBalance();
 
@@ -42,7 +42,7 @@ public:
 
   void setAccNumber();
 
-  bool setPinNumber(string pin);
+  bool setPin(string pin);
 
   bool transaction(int amount);
 };
