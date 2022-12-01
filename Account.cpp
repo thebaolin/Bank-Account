@@ -32,7 +32,7 @@ Account::Account(string first, string last, string pin) {
   last_name = last;
   acc_number = generateAccountNumber();
   balance = 0;
-  setPinNumber(pin);
+  setPin(pin);
 }
 
 
