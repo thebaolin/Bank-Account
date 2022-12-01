@@ -10,7 +10,7 @@ int main(){
     cout<<myAccount.getAccountNumber()<<endl;
     cout<<myAccount.getBalance()<<endl;
     myAccount.setPin("0111");
-    cout<<myAccount.getPinr()<<endl;
+    cout<<myAccount.getPin()<<endl;
     
     myAccount.setPin("92382983");
     cout<<myAccount.getPin()<<endl;
