@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include <string>
 #include "Account.hpp"
@@ -5,8 +6,8 @@ using namespace std;
 
 class Bank {
 private:
-
-  Bank bankAccounts[200];
+  
+  Account bankAccounts[200];
   int numAccounts;
 
 public:
